@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import responsivo, { breakpoints } from "../../../Responsivo/MediaQuery";
 export const LabelInput = styled.label`
   font-size: 1.2rem;
   color: #304644;
@@ -21,8 +21,15 @@ export const InputComponent = styled.input`
   }
   &.grande {
     width: 100%;
+    min-width: 320px;
   }
   &.pequeno {
     width: 200px;
+    ${responsivo(breakpoints.tablet)} {
+      width: 150px;
+    }
+    ${responsivo(breakpoints.mobile)} {
+      width: 100px;
+    }
   }
 `;

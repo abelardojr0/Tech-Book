@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import responsivo, { breakpoints } from "../../Responsivo/MediaQuery";
 export const ContainerFormulario = styled.form`
   max-width: 960px;
   display: flex;
@@ -7,6 +7,12 @@ export const ContainerFormulario = styled.form`
   align-items: flex-start;
   flex-direction: column;
   margin: 0 auto;
+  ${responsivo(breakpoints.desktop)} {
+    padding: 0 50px;
+  }
+  ${responsivo(breakpoints.tablet)} {
+    padding: 0 20px;
+  }
 `;
 export const TituloFormulario = styled.h2`
   margin-top: 80px;
