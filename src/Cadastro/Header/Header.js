@@ -12,7 +12,6 @@ import {
   TextoLinks,
 } from "./stylesHeader";
 import logo from "../../Img/logo.png";
-import logo2 from "../../Img/logo2.png";
 import IconeLista from "../../Img/Lista.svg";
 import IconeUsuario from "../../Img/Usuario.svg";
 import MenuHamburguer from "./MenuHamburguer";
@@ -24,7 +23,7 @@ const Header = ({ texto }) => {
       <HeaderComponent>
         <MenuHamburguer menuMobile={menuMobile} setMenuMobile={setMenuMobile} />
         <HeaderLogo src={logo} alt="logo" />
-        <HeaderLogoMobile src={logo2} alt="logo mobile" />
+        <HeaderLogoMobile src={logo} alt="logo mobile" />
         <HeaderMenuNav className={menuMobile}>
           <HeaderLiItem>Categorias</HeaderLiItem>
           <HeaderLiItem>Favoritos</HeaderLiItem>

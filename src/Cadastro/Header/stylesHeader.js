@@ -14,14 +14,14 @@ export const HeaderComponent = styled.header`
 `;
 
 export const HeaderLogo = styled.img`
-  max-width: 200px;
+  max-width: 120px;
   ${responsivo(breakpoints.tablet)} {
     position: static;
     display: none;
   }
 `;
 export const HeaderLogoMobile = styled.img`
-  max-width: 60px;
+  max-width: 100px;
   display: none;
   position: absolute;
   top: 20px;
