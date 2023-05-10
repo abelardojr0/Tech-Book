@@ -1,7 +1,8 @@
 # :star: Consulta CEP
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
-![logo2](https://user-images.githubusercontent.com/106066785/229648552-d99ad2e9-702b-4e41-8454-939c7166a3c3.png)
+
+![Tech book2](https://github.com/abelardojr0/Consulta-Cep-React/assets/106066785/6116c6b6-960b-498e-83d2-6862bc3b9581)
 
 
 # :door: Descrição do Projeto
@@ -12,11 +13,13 @@ Projeto desenvolvido em React com o objetivo de praticar apreendizado, é um for
 Projeto 100% responsivo!
 
 ##  :computer:  Versão Desktop:
-![desktop](https://user-images.githubusercontent.com/106066785/229648854-17687200-97f1-424e-9b26-a039753902bc.png)
+![consultacep](https://github.com/abelardojr0/Consulta-Cep-React/assets/106066785/0beab862-91c0-4bba-9529-67139b6b0073)
+
 
 
 ## :iphone: Versão Mobile:
-![mobile](https://user-images.githubusercontent.com/106066785/229648864-9a7c44b1-1abf-43d8-b134-627ad424e9b4.png)
+![consultacep-mobile](https://github.com/abelardojr0/Consulta-Cep-React/assets/106066785/fc527ce0-b93f-4add-8cb3-9979d613e2f1)
+
 
 
 
